@@ -22,8 +22,8 @@ It provides high performance compression and encoding schemes to handle complex 
 Or Search Open Issues
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/apache/parquet-mr" %}}
-We do a [Pull Request](https://github.com/apache/parquet-mr/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/apache/parquet-java" %}}
+We do a [Pull Request](https://github.com/apache/parquet-java/pulls) contributions workflow on **GitHub**. New users are always welcome!
 {{% /blocks/feature %}}
 
 

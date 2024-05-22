@@ -63,7 +63,7 @@ You can now preview the site locally on http://localhost:1313/
 
 To create documentation for a new release of `parquet-format` create a new <releaseNumber>.md file under `content/en/blog/parquet-format`. Please see existing files in that directory as an example.
 
-To create documentation for a new release of `parquet-mr` create a new <releaseNumber>.md file under `content/en/blog/parquet-mr`. Please see existing files in that directory as an example.
+To create documentation for a new release of `parquet-java` create a new <releaseNumber>.md file under `content/en/blog/parquet-java`. Please see existing files in that directory as an example.
 
 # Website development and deployment
 
