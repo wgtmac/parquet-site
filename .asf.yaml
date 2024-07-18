@@ -16,7 +16,7 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-# https://cwiki.apache.org/confluence/display/INFRA/git+-+.asf.yaml+features
+# https://github.com/apache/infrastructure-asfyaml
 #
 github:
   description: "Apache Parquet Site"
@@ -39,10 +39,6 @@ github:
   collaborators:  # Note: the number of collaborators is limited to 10
     - vinooganesh
     - alamb
-
-staging:
-  profile: ~
-  whoami:  asf-staging
  
 publish:
   whoami:  asf-site
@@ -50,4 +46,4 @@ publish:
 notifications:
   commits:      commits@parquet.apache.org
   issues:       issues@parquet.apache.org
-  pullrequests: issues@parquet.apache.org
+  pullrequests: commits@parquet.apache.org
