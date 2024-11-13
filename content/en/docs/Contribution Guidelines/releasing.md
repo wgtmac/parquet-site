@@ -1,12 +1,14 @@
 ---
-title: "Releasing Parquet"
-linkTitle: "Releasing Parquet"
+title: "Releasing Parquet-Java"
+linkTitle: "Releasing Parquet-Java"
 weight: 4
 description: >
   How to release Parquet-Java
 ---
 
 ### Setup
+
+N.B. The mechanics of releasing parquet-format is the same (e.g. setting up keys, branching, votes, etc)
 
 You will need: 
 
@@ -173,3 +175,18 @@ Add a [new release to GitHub](https://github.com/apache/parquet-java/releases/ne
     Java artifacts are available from Maven Central.
 
     Thanks to everyone for contributing!
+
+#### 6\. Update parquet-format with feature enablement guidance
+
+The recommendations for other feature enablement is generally tied to releases of
+parquet-java (details are in the parquet-format repo).  As releases are made the
+specification should be updated to indicate the recommended dates for when a new
+feature may be enabled.
+
+
+### Release Cadence
+
+Provided enough volunteers are available the Parquet community aims to have
+releases on a quarterly basis (Targets months are January, April, July and
+October). If a new major version is necessary it will be targetted for the
+October release.
