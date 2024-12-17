@@ -102,9 +102,6 @@ github_branch= "production"
 # Comment out to disable search.
 # gcs_engine_id = "7e3f91e3eadecceaa"
 
-# Enable Algolia DocSearch
-algolia_docsearch = true
-
 # Enable Lunr.js offline search
 offlineSearch = false
 
@@ -112,6 +109,11 @@ offlineSearch = false
 prism_syntax_highlighting = false
 
 # User interface configuration
+
+[params.search.algolia]
+appId = '399WOPSE6Q'
+apiKey = '437a8e172549357b6ca768248caecff9'
+indexName = 'parquet-apache'
 
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
