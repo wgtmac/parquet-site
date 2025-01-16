@@ -12,8 +12,8 @@ The [parquet-java](https://github.com/apache/parquet-java) project is a Java lib
 
 The [parquet-cpp](https://arrow.apache.org/docs/cpp/parquet.html) project is a C++ library to read-write Parquet files. It is part of the [Apache Arrow](https://arrow.apache.org/) C++ implementation, with bindings to Python, R, Ruby and C/GLib.
 
-The [parquet-rs](https://github.com/apache/arrow-rs/tree/master/parquet) project is a Rust library to read-write Parquet files.
+The [parquet-rs](https://github.com/apache/arrow-rs/tree/main/parquet) project is a Rust library to read-write Parquet files.
 
-The [parquet-go](https://github.com/apache/arrow-go/tree/master/parquet) project is a Golang library to read-write Parquet files. It is part of the [Apache Arrow](https://arrow.apache.org/) Go implementation.
+The [parquet-go](https://github.com/apache/arrow-go/tree/main/parquet) project is a Golang library to read-write Parquet files. It is part of the [Apache Arrow](https://arrow.apache.org/) Go implementation.
 
 The [parquet-compatibility](https://github.com/Parquet/parquet-compatibility) project (deprecated) contains compatibility tests that can be used to verify that implementations in different languages can read and write each other’s files. As of January 2022 compatibility tests only exist up to version 1.2.0.

@@ -18,8 +18,8 @@ The value in each box means:
 Implementations:
 * `C++`: [parquet-cpp](https://github.com/apache/arrow/tree/main/cpp/src/parquet)
 * `Java`: [parquet-java](https://github.com/apache/parquet-java)
-* `Go`: [parquet-go](https://github.com/apache/arrow/tree/main/go/parquet)
-* `Rust`: [parquet-rs](https://github.com/apache/arrow-rs/blob/master/parquet/README.md)
+* `Go`: [parquet-go](https://github.com/apache/arrow-go/tree/main/parquet)
+* `Rust`: [parquet-rs](https://github.com/apache/arrow-rs/blob/main/parquet/README.md)
 
 
 
