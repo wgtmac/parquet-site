@@ -57,9 +57,9 @@ Implementations:
 | TIME (INT32)                              |  ✅   |  ✅   |       |       |  ✅   |
 | TIME (INT64)                              |  ✅   |  ✅   |       |       |  ✅   |
 | TIMESTAMP (INT64)                         |  ✅   |  ✅   |       |       |  ✅   |
-| INTERVAL                                  |  ✅   |  ✅   |       |       |  ❌   |
+| INTERVAL                                  |  ✅   |  ❌   |       |       |  ❌   |
 | JSON                                      |  ✅   |  ✅   |       |       |  ❌   |
-| BSON                                      |  ❌   |  ✅   |       |       |  ❌   |
+| BSON                                      |  ❌   |  ❌   |       |       |  ❌   |
 | LIST                                      |  ✅   |  ✅   |       |       |  ✅   |
 | MAP                                       |  ✅   |  ✅   |       |       |  ✅   |
 | UNKNOWN (always null)                     |  ✅   |  ✅   |       |       |  ✅   |
@@ -84,6 +84,7 @@ Implementations:
 | Compression                               | C++   | Java  | Go    | Rust  | cuDF  |
 | ----------------------------------------- | ----- | ----- | ----- | ----- | ----- |
 | UNCOMPRESSED                              |  ✅   |  ✅   |       |       |  ✅   |
+| BROTLI                                    |  ✅   |  ✅   |       |       |  (R)  |
 | GZIP                                      |  ✅   |  ✅   |       |       |  (R)  |
 | LZ4 (deprecated)                          |  ✅   |  ✅   |       |       |  ❌   |
 | LZ4_RAW                                   |  ✅   |  ✅   |       |       |  ✅   |
