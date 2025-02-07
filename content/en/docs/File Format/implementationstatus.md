@@ -58,12 +58,12 @@ Implementations:
 | TIME (INT64)                              |  ✅   |  ✅   |       |       |  ✅   |
 | TIMESTAMP (INT64)                         |  ✅   |  ✅   |       |       |  ✅   |
 | INTERVAL                                  |  ✅   |  ❌   |       |       |  ❌   |
-| JSON                                      |  ✅   |  ✅   |       |       |  ❌   |
+| JSON                                      |  ✅   |  ❌   |       |       |  ❌   |
 | BSON                                      |  ❌   |  ❌   |       |       |  ❌   |
 | LIST                                      |  ✅   |  ✅   |       |       |  ✅   |
 | MAP                                       |  ✅   |  ✅   |       |       |  ✅   |
-| UNKNOWN (always null)                     |  ✅   |  ✅   |       |       |  ✅   |
-| FLOAT16                                   |  ✅   |  ✅   |       |       |  ✅   |
+| UNKNOWN (always null)                     |  ✅   |  ❌   |       |       |  ✅   |
+| FLOAT16                                   |  ✅   |  ❌   |       |       |  ✅   |
 
 ### Encodings
 
@@ -86,9 +86,9 @@ Implementations:
 | UNCOMPRESSED                              |  ✅   |  ✅   |       |       |  ✅   |
 | BROTLI                                    |  ✅   |  ✅   |       |       |  (R)  |
 | GZIP                                      |  ✅   |  ✅   |       |       |  (R)  |
-| LZ4 (deprecated)                          |  ✅   |  ✅   |       |       |  ❌   |
+| LZ4 (deprecated)                          |  ✅   |  ❌   |       |       |  ❌   |
 | LZ4_RAW                                   |  ✅   |  ✅   |       |       |  ✅   |
-| LZO                                       |  ❌   |  ✅   |       |       |  ❌   |
+| LZO                                       |  ❌   |  ❌   |       |       |  ❌   |
 | SNAPPY                                    |  ✅   |  ✅   |       |       |  ✅   |
 | ZSTD                                      |  ✅   |  ✅   |       |       |  ✅   |
 
@@ -113,9 +113,9 @@ Implementations:
 
 | Format                                       | C++   | Java  | Go    | Rust  | cuDF  |
 | -------------------------------------------- | ----- | ----- | ----- | ----- | ----- |
-| External column data (1)                     |  ❌   |  ✅   |       |       |  (W)  |
+| External column data (1)                     |  ✅   |  ✅   |       |       |  (W)  |
 | Row group "Sorting column" metadata (2)      |  ✅   |  ❌   |       |       |  (W)  |
-| Row group pruning using statistics           |  ✅   |  ✅   |       |       |  ✅   |
+| Row group pruning using statistics           |  ❌   |  ✅   |       |       |  ✅   |
 | Row group pruning using bloom filter         |  ❌   |  ✅   |       |       |  ✅   |
 | Reading select columns only                  |  ✅   |  ✅   |       |       |  ✅   |
 | Page pruning using statistics                |  ❌   |  ✅   |       |       |  ❌   |
