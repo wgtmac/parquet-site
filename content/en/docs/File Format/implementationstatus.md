@@ -57,13 +57,15 @@ Implementations:
 | TIME (INT32)                              |  ✅   |  ✅   |       |       |  ✅   |
 | TIME (INT64)                              |  ✅   |  ✅   |       |       |  ✅   |
 | TIMESTAMP (INT64)                         |  ✅   |  ✅   |       |       |  ✅   |
-| INTERVAL                                  |  ✅   |  ✅   |       |       |  ❌   |
-| JSON                                      |  ✅   |  ✅   |       |       |  ❌   |
-| BSON                                      |  ❌   |  ✅   |       |       |  ❌   |
+| INTERVAL                                  |  ✅   |  ✅(*)|       |       |  ❌   |
+| JSON                                      |  ✅   |  ✅(*)|       |       |  ❌   |
+| BSON                                      |  ❌   |  ✅(*)|       |       |  ❌   |
 | LIST                                      |  ✅   |  ✅   |       |       |  ✅   |
 | MAP                                       |  ✅   |  ✅   |       |       |  ✅   |
 | UNKNOWN (always null)                     |  ✅   |  ✅   |       |       |  ✅   |
-| FLOAT16                                   |  ✅   |  ✅   |       |       |  ✅   |
+| FLOAT16                                   |  ✅   |  ✅(*)|       |       |  ✅   |
+
+(*): Only supported to use its annotated physical type
 
 ### Encodings
 
